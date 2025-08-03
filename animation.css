@@ -1,0 +1,119 @@
+.header_links ul li a:hover
+{
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+/* .card_data1:hover
+{
+    opacity: 1;
+} */
+
+@keyframes card
+{
+    0%
+    {   opacity: 0;     }
+    50%
+    {   opacity: 1;     }
+    100%
+    {   opacity: 0;     }
+}
+
+@keyframes item1
+{
+    0%
+    {   margin-left: -1500px; opacity: 0;     }
+    100%
+    {    margin-left: 0px; opacity: 1;    }
+}
+
+@keyframes item2
+{
+    0%
+    {   margin-right: -1500px; opacity: 0;     }
+    100%
+    {    margin-right: 0px; opacity: 1;    }
+}
+/* 
+.card_data2:hover
+{
+    opacity: 1;
+}
+
+.card_data3:hover
+{
+    opacity: 1;
+} */
+
+.education .course:hover
+{
+    box-shadow: 5px 5px 10px black;
+}
+
+.education .course::before
+{
+    content: '';
+    height: 15px;
+    width: 15px;
+    border: 5px solid white;
+    background-color:#090979 ;
+    border-radius: 50%;
+    margin-left: -38px;
+}
+
+.education .course_data span:last-child a:hover
+{
+    transform: scale(1.1);
+    color: #1b1b1e;
+    text-decoration: underline;
+}
+
+@keyframes fade 
+{
+    0%
+    {   content: "";                }
+    4%
+    {   content: "s";               }
+    7%
+    {   content: "su";              }
+    10%
+    {   content: "suj";             }
+    15%
+    {   content: "suja";            }
+    20%
+    {   content: "sujal";           }
+    25%
+    {   content: "sujal p";         }
+    30%
+    {   content: "sujal pa";        }
+    35%
+    {    content: "sujal par";      }
+    40%
+    {   content: "sujal parm";      }
+    45%
+    {   content: "sujal parma";     }
+    50%
+    {   content: "sujal parmar";    }
+    55%
+    {   content: "sujal parma";     }
+    60%
+    {   content: "sujal parm";      }
+    65%
+    {   content: "sujal par";       }
+    70%
+    {   content: "sujal pa";        }
+    75%
+    {   content: "sujal p";         }
+    80%
+    {   content: "sujal";           }
+    85%
+    {   content: "suja";            }
+    90%
+    {   content: "suj";             }
+    94%
+    {   content: "su";              }
+    97%
+    {   content: "s";               }
+    100%
+    {   content: "";                }
+}

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .typing-effect 
+        {
+        font-size: 24px;
+        font-family: monospace;
+        }
+
+        .text {
+        font-size: 1rem;
+        height: 50px;
+        width: 100px;
+        margin-left: -120px;
+        animation: fade 5s linear infinite; 
+        background-color: blue;
+        }
+
+        .text::before
+        {
+            content: "";
+            /* height: 50px;
+            width: 100px;
+            background-color: blue; */
+            /* animation: fade 5s infinite; */
+        }
+        
+        @keyframes fade {
+            /* 0%
+            {
+                margin-left: 0px;
+            } */
+            50%
+            {
+                margin-left: 100px;
+            }
+            70%
+            {
+                margin-left: 150px;
+            }
+            100%
+            {
+                margin-left: 200px;
+            }
+            /* 0%
+            {   
+                content: "s";   
+            }
+            5%
+            {
+                content: "su";  
+            }
+            10%
+            {
+                content: "suj";  
+            }
+            15%
+            {
+                content: "suja";  
+            }
+            20%
+            {
+                content: "sujal";  
+            }
+            25%
+            {
+                content: "sujal p";  
+            }
+            30%
+            {
+                content: "sujal pa";  
+            }
+            35%
+            {
+                content: "sujal par";  
+            }
+            40%
+            {
+                content: "sujal parm";  
+            }
+            45%
+            {
+                content: "sujal parma";  
+            }
+            50%
+            {
+                content: "sujal parmar";  
+            }
+            55%
+            {
+                content: "sujal parma";  
+            }
+            60%
+            {
+                content: "sujal parm";  
+            }
+            65%
+            {
+                content: "sujal par";  
+            }
+            70%
+            {
+                content: "sujal pa";  
+            }
+            75%
+            {
+                content: "sujal p";  
+            }
+            80%
+            {
+                content: "sujal";  
+            }
+            85%
+            {
+                content: "suja";  
+            }
+            90%
+            {
+                content: "suj";  
+            }
+            94%
+            {
+                content: "su";  
+            }
+            97%
+            {
+                content: "s";  
+            }
+            100%
+            {
+                content: ""; 
+            } */
+        }
+
+
+    </style>
+    <!-- <script>
+        const textElement = document.querySelector(".text");
+        const text = "Hello World!";
+        let index = 0;
+        let isTyping = true;
+
+        function typeText() {
+        if (isTyping) {
+            textElement.textContent = text.substring(0, index + 1);
+            index++;
+            if (index === text.length) {
+            isTyping = false;
+            setTimeout(typeText, 1000);
+            } else {
+            setTimeout(typeText, 100);
+            }
+        } else {
+            textElement.textContent = text.substring(0, index - 1);
+            index--;
+            if (index === 0) {
+            isTyping = true;
+            setTimeout(typeText, 100);
+            } else {
+            setTimeout(typeText, 50);
+            }
+        }
+        }
+
+typeText();
+    </script> -->
+</head>
+<body>
+    <div class="typing-effect">
+        <!-- <span class="text"></span> -->
+        <div class="text"></div>    
+    </div>
+</body>
+</html>

@@ -1,0 +1,100 @@
+@media (max-width:600px) {
+    .main_container
+    {
+        flex-direction: column;
+        padding-top: 70px;
+        height: auto;
+        gap: 140px;
+    }
+
+    .footer
+    {
+        flex-direction: column;
+        height: auto;
+        justify-content: flex-start;
+        gap: 30px;
+    }
+
+    .footer_links
+    {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .footer_msg
+    {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .main_details
+    {
+        text-align: center;
+    }
+
+}
+
+@media (max-width:1150px) 
+{
+    .project_container
+    {
+        height: auto;
+    }
+
+    .project_container .project_card
+    {
+        flex-direction: column;
+    }
+
+    .education
+    {
+        width: 100%;
+    }
+
+    .card_data2
+    {
+        margin-left: 0px;
+        margin-top: 330px;
+    }
+
+    .card_data3
+    {
+        margin-left: 0px;
+        margin-top: 660px;
+    }
+
+    .contact_main
+    {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .left_side
+    {
+        width: 100%;
+    }
+    
+    .right_side
+    {
+        width: 100%;
+    }
+
+    .language_container
+    {
+        height: auto;
+        width: 100%;
+    }
+
+    .language_main
+    {
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .language_item
+    {
+        width: 100%;
+    }
+
+}
