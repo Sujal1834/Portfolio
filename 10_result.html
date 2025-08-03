@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 20px;
+            gap: 50px;
+            /* align-items: center; */
+        }
+
+        .degree
+        {
+            height: 70%;
+            width: 70%;
+            box-shadow: 10px 10px 50px black;
+            align-self: center;
+        }
+
+        a
+        {
+            align-self: flex-end;
+            margin-right: 100px;
+        }
+
+        .back
+        {
+            height: 30px;
+            width: 30px;
+        }
+
+        .back img
+        {
+            object-fit: cover;
+            object-position: center;
+            height: 100%;
+            width: 100%;
+        }
+
+        @media (max-width:600px)
+        {
+            a
+            {
+                margin-right: 0px;
+            }
+
+            .degree
+            {
+                width: 100%;
+                box-shadow: 5px 5px 10px black;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="../index.html#education"><div class="back"><img src="../image/icons/cancle.png" alt="cancle"></div></a>
+    <img src="../image/certificates/result_10.JPG" alt="" class="degree">
+</body>
+</html>
